@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Extra Dark Mode",
+  "version": "1.0.0",
+  "icons": {
+    "32": "contrast.png"
+  },
+  "description": "A basic example extension with only required keys",
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "contrast.png"
+  },
+  "permissions": [
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chrome Extension Popup</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      .slider-container {
+        margin-top: 20px;
+      }
+      .value-display {
+        margin-top: 10px;
+        font-size: 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Slide the Slider Enable darkness</h1>
+
+    <div class="slider-container">
+      <input type="range" id="slider" min="1" max="100" value="100" />
+      <p>Brightness: <span id="sliderValue">100</span>%</p>
+      <button id="btn">Apply Brightness</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+    >
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
