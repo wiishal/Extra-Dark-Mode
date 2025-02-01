@@ -16,7 +16,7 @@ Extra Dark Mode is a simple Chrome extension that allows users to dynamically ad
 ### **Installation**
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/extra-dark-mode.git
+   git clone https://github.com/wiishal/extra-dark-mode.git
    cd extra-dark-mode
    ```
 
